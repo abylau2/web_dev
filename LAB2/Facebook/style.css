@@ -1,0 +1,157 @@
+body{
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif; /*шрифт*/
+    background-color:#f0f2f5;
+    color: rgb(12, 12, 12);
+}
+.container{
+    display: flex;/* class "right section" и class "left section" выравниваются по горизонтали*/
+    justify-content: space-between; /* разделяет "right section" и "left section" по краям, и дает равномерное пространство*/
+    align-items: center;
+    height: 80vh;
+    max-width: 1200vh;
+    margin: auto 0;
+}
+.left-section{
+    max-width: 50%;
+    padding: 100px;
+}
+.left-section h1{
+    font-size: 66px;
+    color: #1877f2; /*делает текст синего цвета*/
+    margin-bottom: 15px;
+}
+.left-section p{
+    font-size: 25px;
+}
+.right-section{
+    background-color: white;
+    padding: 15px 30px; 
+    border-radius: 8px; /* округляет границы "right section"*/
+    box-shadow: 0 4px 12px rgba(0 , 0 , 0 , 0.1); /*тень в границах*/
+    height: 310px;
+    width: 75%;
+    margin: 60px; /*разграничивает стороны*/
+   
+}
+.form-input input{
+width: 100%;
+height: 10px;
+padding: 30px;
+font-size: 16px;
+border: 1px solid #dddfe2;
+border-radius: 6px;
+box-sizing: border-box;
+margin: 3px;
+font-weight: bold;
+}
+.form-input input:focus{
+    outline: none;
+    border-color: #1877f2;
+    box-shadow: 0 0 4px rgba(24, 119, 242, 0.5);
+}
+.login-button{
+    margin:3px;
+    margin-left: 6px;
+    width: 100%;
+    padding: 15px;
+    font-size:20px;
+    font-weight: bold; /*делает текст жирным*/
+   background-color: #1877f2;
+   color: white; /*делает текст белого цвета*/
+   border:none;
+    border-radius: 8px;
+    cursor: pointer; /*при наведении на кнопку делает курсор другим*/
+}
+.login-button:hover{ /*при нааведении кнопка становится темно-синим*/
+    background-color: #145dbf;
+}
+.forgot-password {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+}
+.forgot-password a{
+    color: #1877f2;
+    text-decoration: none;
+}
+.forgot-password:hover{
+    text-decoration: underline;
+}
+
+
+.create-account {
+    margin-left: 90px;
+    background-color: #42b72a;
+    padding: 12px;
+    border:none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size:20px;
+    color:white;
+    font-weight: bold;
+}
+.create-account:hover{
+    background-color:#36a420;
+}
+.nadpis{
+    margin: 35px;
+    font-size: 15px;
+}
+.nadpis a{
+    color: black;
+    text-decoration: none;
+}
+.nadpis:hover a{
+    text-decoration: underline;
+
+}
+
+.liniya {
+    border: none; /* Убираем стандартные стили */
+    border-top: 1px solid #dddfe2; /* Тонкая серая линия */
+    margin: 20px 0; /* Отступы сверху и снизу */
+    width: 100%; /* Линия на всю ширину контейнера */
+    box-sizing: border-box; /* Учитывает отступы */
+}
+footer {
+    background-color: white;
+    padding: 20px;
+    margin-top: auto;
+  }
+  
+  .footer-content {
+    max-width: 980px;
+    margin: 0 auto;
+  }
+  
+  .language-selector {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 10px;
+    font-size: 0.75rem;
+  }
+  
+  .language-selector a {
+    color: #737373;
+    text-decoration: none;
+  }
+  
+  .footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    font-size: 0.75rem;
+  }
+  
+  .footer-links a {
+    color: #737373;
+    text-decoration: none;
+  }
+  
+  .meta-copyright {
+    margin-top: 20px;
+    color: #737373;
+    font-size: 0.75rem;
+  }
