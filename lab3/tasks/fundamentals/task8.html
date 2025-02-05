@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+         //  alert(null||2||undefined);// // first truth
+         //  alert(alert(1) || 2 || alert(3)); // || get first truth 
+         // alert(1 && null && 2); // && fisrt false
+         // alert(alert(1) && alert(2)); // alert(1) get undefined so && get false
+         //alert(null || 2 && 3 || 4); // 2&&3 get 3 null || 3 || 4 get so answer 3 
+         let login = prompt("Enter your login:", "");
+
+if (login === "Admin") {
+  let password = prompt("Enter your password:", "");
+
+  if (password === "TheMaster") {
+    alert("Welcome!");
+  } else if (password === "" || password === null) {
+    alert("Canceled");
+  } else {
+    alert("Wrong password");
+  }
+} else if (login === "" || login === null) {
+  alert("Canceled");
+} else {
+  alert("I don’t know you");
+}
+
+
+
+        </script>
+    </body>
+</html> 

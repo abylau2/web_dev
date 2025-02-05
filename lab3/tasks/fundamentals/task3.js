@@ -1,0 +1,10 @@
+let num = 123;
+let string = "String";
+let bool = 4>1;
+let x;
+console.log(typeof num);
+console.log(typeof string);
+console.log(typeof bool);
+console.log(typeof x);
+let name = "Ilya Topuria";
+console.log(`Чемпион полу-среднего все: ${name}`);
