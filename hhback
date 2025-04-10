@@ -1,0 +1,7 @@
+<script>start("/Users/abylaibakkeldi/Desktop/Новая папка 3/Web-Dev/lab9/hhback/");</script>
+<script>onHasParentDirectory();</script>
+<script>addRow("api","api",1,384,"384 B",1741815964,"13.03.2025, 02:46:04");</script>
+<script>addRow("hhback","hhback",1,288,"288 B",1744279184,"10.04.2025, 14:59:44");</script>
+<script>addRow(".DS_Store",".DS_Store",0,6148,"6.0 kB",1743620966,"03.04.2025, 00:09:26");</script>
+<script>addRow("db.sqlite3","db.sqlite3",0,151552,"148 kB",1744284775,"10.04.2025, 16:32:55");</script>
+<script>addRow("manage.py","manage.py",0,662,"662 B",1741815964,"13.03.2025, 02:46:04");</script>
